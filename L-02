@@ -1,0 +1,19 @@
+Lecture 02
+==========
+
+Before Class:
+-------------
+I watched class videos
+DAS (Direct Attached Storage) is common way we daily used, hard drive and OS are in laptop
+which we have direct access to them.
+NAS (Network Attached Storage) is both the filesystem , and hard drive or storage are in a remote server
+which we need to remotely access as a shared hard drive
+SAN (Storage Area Network) is simliart to the NAS, however, the storage is seperate from the filesystem,
+the filesystem is not bind to one storage, instead, have access to multiple storages as local device. 
+
+Question about different type of file systems, I am not very clear about them. hope Jan would clear that in the lecture.
+
+
+
+
+ 
