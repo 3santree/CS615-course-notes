@@ -13,6 +13,28 @@ the filesystem is not bind to one storage, instead, have access to multiple stor
 
 Question about different type of file systems, I am not very clear about them. hope Jan would clear that in the lecture.
 
+After Class:
+------------
+I got a better understanding about between the gap about file system and operating system.
+There're some key point I got
+
+1. Hide file using mount
+
+If you mount a folder, the folder content will be whatever your mount point have,
+however, if the folder already got some files before the mount...
+It won't be delete! You can only see it by unmount the folder!
+Really a cool way to hide file, I think it's a very secret technique
+
+2. What're files
+
+There're Two main things we need to know. Inode, and its content
+When we access a file, what's it really do is 
+    1. get file's inode number
+    2. go to the address for the inode, grap the content
+    3. give it back to you
+And when you delete the file, the content didn't got delete!
+It simply remove the inode which the file attached to, so you cannot access the content, unless you have a hard link of that file which remember the inode.
+
 
 
 
