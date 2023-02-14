@@ -1,0 +1,13 @@
+Lecture 04
+==========
+
+Before Class:
+-------------
+Completed the questionare before the class
+watched the class video 
+
+
+After Class:
+-------------
+1. zero trust is about access control, people only need access to things they need.
+2. /etc/passwd is the access control file for unix system, uid, gid, name etc.
